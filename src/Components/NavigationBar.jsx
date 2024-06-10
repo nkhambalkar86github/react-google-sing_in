@@ -19,9 +19,7 @@ export function NavigationBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
 
-            <LinkContainer to="/login-first">
-              <Nav.Link>Login here</Nav.Link>
-            </LinkContainer>
+            
     {/*
             <LinkContainer to="/dashboard">
               <Nav.Link>Dashboard1</Nav.Link>
@@ -40,7 +38,7 @@ export function NavigationBar() {
 
 
             <LinkContainer to="/">
-              <Nav.Link>User Registration</Nav.Link>
+              <Nav.Link>Sign In</Nav.Link>
             </LinkContainer>
           </Nav>
           <Button variant="primary" size="sm" onClick={handleLogoutClick}>Logout</Button>
